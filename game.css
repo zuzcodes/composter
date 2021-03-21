@@ -1,0 +1,584 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Comfortaa', cursive;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+#screen {
+    position: relative;
+    width: 100vw;
+    height: 56.25vw;
+}
+
+/*GAME*/
+
+#game {
+    position: relative;
+    width: 100vw;
+    height: 56.25vw;
+    overflow: hidden;
+    background-color: white;
+}
+
+#game_background {
+    background-image: url("game_background.svg");
+    background-size: 100%;
+    width: 100vw;
+    height: 56.25vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/*GAME ELEMENTS*/
+
+#bottle_container {
+    position: absolute;
+    top: 10vw;
+    transform: rotate(25deg);
+}
+
+#bottle_container .sprite {
+    background-image: url("svgs/bottle.svg");
+    background-size: 100%;
+    width: 2.8vw;
+    height: 7.2vw;
+}
+
+#coffeecup_container {
+    position: absolute;
+    top: 10vw;
+    transform: rotate(-15deg);
+}
+
+#coffeecup_container .sprite {
+    background-image: url("svgs/coffeecup.svg");
+    background-size: 100%;
+    width: 3vw;
+    height: 3.8vw;
+}
+
+#can_container {
+    position: absolute;
+    top: 10vw;
+    transform: rotate(10deg);
+}
+
+#can_container .sprite {
+    background-image: url("svgs/can.svg");
+    background-size: 100%;
+    width: 2.5vw;
+    height: 4.6vw;
+}
+
+#peaches_container {
+    position: absolute;
+    top: 10vw;
+    transform: rotate(-10deg);
+}
+
+#peaches_container .sprite {
+    background-image: url("svgs/peaches.svg");
+    background-size: 100%;
+    width: 3vw;
+    height: 4.4vw;
+}
+
+#tulip_container {
+    position: absolute;
+    top: 20vw;
+    transform: rotate(20deg);
+}
+
+#tulip_container .sprite {
+    background-image: url("svgs/tulip.svg");
+    background-size: 100%;
+    width: 2.3vw;
+    height: 5.8vw;
+}
+
+#fishbone_container {
+    position: absolute;
+    top: 10vw;
+    transform: rotate(-35deg);
+}
+
+#fishbone_container .sprite {
+    background-image: url("svgs/fishbone.svg");
+    background-size: 100%;
+    width: 2.5vw;
+    height: 5.2vw;
+}
+
+/*GAME UI*/
+
+#board {
+    position: absolute;
+    top: 9vw;
+    left: 69vw;
+    height: 8vw;
+    width: 20vw;
+    background-color: #c8c1d1;
+    color: white;
+    border-radius: 8vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 100;
+}
+
+#score_count {
+    position: absolute;
+    font-size: 3vw;
+    text-align: center;
+    width: 1vw;
+    height: 1vw;
+    left: 4vw;
+    top: 2.5vw;
+}
+
+#time_count {
+    position: absolute;
+    font-size: 3vw;
+    text-align: center;
+    width: 1vw;
+    height: 1vw;
+    left: 83.5vw;
+    top: 11.5vw;
+}
+
+#life_1 {
+    background-image: url("svgs/life.svg");
+    background-size: 100%;
+    width: 2vw;
+    height: 3vw;
+    position: absolute;
+    top: 11.2vw;
+    left: 76vw;
+}
+
+#life_2 {
+    background-image: url("svgs/life.svg");
+    background-size: 100%;
+    width: 2vw;
+    height: 3vw;
+    position: absolute;
+    top: 11.2vw;
+    left: 78vw;
+}
+
+#life_3 {
+    background-image: url("svgs/life.svg");
+    background-size: 100%;
+    width: 2vw;
+    height: 3vw;
+    position: absolute;
+    top: 11.2vw;
+    left: 80vw;
+}
+
+#music {
+    background-image: url("svgs/music.svg");
+    background-size: 100%;
+    position: absolute;
+    width: 4vw;
+    height: 4vw;
+    top: 23vw;
+    left: 85vw; 
+}
+
+#mutemusic {
+    background-image: url("svgs/mute.svg");
+    background-size: 100%;
+    position: absolute;
+    width: 4vw;
+    height: 4vw;
+    top: 23vw;
+    left: 85vw;
+    opacity: 0;
+}
+
+#sound {
+    background-image: url("svgs/sound.svg");
+    background-size: 100%;
+    position: absolute;
+    width: 4vw;
+    height: 4vw;
+    top: 18vw;
+    left: 85vw; 
+}
+
+#mutesound {
+    background-image: url("svgs/mute.svg");
+    background-size: 100%;
+    position: absolute;
+    width: 4vw;
+    height: 4vw;
+    top: 18vw;
+    left: 85vw;
+    opacity: 0;
+}
+
+/*START*/
+
+#start {
+    background-image: url("svgs/startscreen.svg");
+    background-size: 100%;
+    width: 100vw;
+    height: 56.25vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#play {
+    background-image: url("svgs/play.svg");
+    background-size: 100%;
+    position: absolute;
+    width: 8vw;
+    height: 8vw;
+    top: 28vw;
+    left: 40vw;
+}
+
+/*TIME'S UP*/
+
+#timesup {
+    background-image: url("svgs/timesup.svg");
+    background-size: 100%;
+    position: absolute;
+    width: 100vw;
+    height: 56.25vw;
+    top: 0;
+    left: 0;
+    opacity: 1;
+}
+
+#startagain {
+    background-image: url("svgs/playagain.svg");
+    background-size: 100%;
+    position: absolute;
+    width: 8vw;
+    height: 8vw;
+    top: 40vw;
+    left: 55vw;
+}
+
+#windmill_1 {
+    background-image: url("svgs/windmill1.svg");
+    background-size: 100%;
+    position: absolute;
+    width: 6vw;
+    height: 6vw;
+    top: 26.55vw;
+    left: 56.65vw;
+    background-repeat: no-repeat;
+}
+
+#windmill_2 {
+    background-image: url("svgs/windmill2.svg");
+    background-size: 100%;
+    position: absolute;
+    width: 8vw;
+    height: 8vw;
+    top: 20vw;
+    left: 61.9vw;
+    background-repeat: no-repeat;
+}
+
+#windmill_3 {
+    background-image: url("svgs/windmill1.svg");
+    background-size: 100%;
+    position: absolute;
+    width: 6vw;
+    height: 6vw;
+    top: 24vw;
+    left: 71.3vw;
+    background-repeat: no-repeat;
+}
+
+#windmill_4 {
+    background-image: url("svgs/windmill2.svg");
+    background-size: 100%;
+    position: absolute;
+    width: 8vw;
+    height: 8vw;
+    top: 20.5vw;
+    left: 76.3vw;
+    background-repeat: no-repeat;
+}
+
+/*GAME OVER*/
+
+#gameover {
+    background-image: url("svgs/gameover.svg");
+    background-size: 100%;
+    width: 100vw;
+    height: 56.25vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+}
+
+#tryagain {
+    background-image: url("svgs/tryagain.svg");
+    background-size: 100%;
+    position: absolute;
+    width: 8vw;
+    height: 8vw;
+    top: 40vw;
+    left: 55vw;
+}
+
+/*LEVEL COMPLETE*/
+
+#levelcomplete {
+    background-image: url("svgs/levelcomplete.svg");
+    background-size: 100%;
+    width: 100vw;
+    height: 56.25vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+}
+
+#playagain {
+    background-image: url("svgs/playagain.svg");
+    background-size: 100%;
+    position: absolute;
+    width: 8vw;
+    height: 8vw;
+    top: 40vw;
+    left: 55vw;
+}
+
+#sun {
+    background-image: url("svgs/sun.svg");
+    background-size: 100%;
+    position: absolute;
+    width: 15vw;
+    height: 15vw;
+    top: 4vw;
+    left: 78vw;
+}
+
+#windmill_5 {
+    background-image: url("svgs/windmill1.svg");
+    background-size: 100%;
+    position: absolute;
+    width: 6vw;
+    height: 6vw;
+    top: 32vw;
+    left: 55.5vw;
+    background-repeat: no-repeat;
+}
+
+#windmill_6 {
+    background-image: url("svgs/windmill2.svg");
+    background-size: 100%;
+    position: absolute;
+    width: 8vw;
+    height: 8vw;
+    top: 24.3vw;
+    left: 60.5vw;
+    background-repeat: no-repeat;
+}
+
+#windmill_7 {
+    background-image: url("svgs/windmill1.svg");
+    background-size: 100%;
+    position: absolute;
+    width: 6vw;
+    height: 6vw;
+    top: 29vw;
+    left: 69.9vw;
+    background-repeat: no-repeat;
+}
+
+#windmill_8 {
+    background-image: url("svgs/windmill2.svg");
+    background-size: 100%;
+    position: absolute;
+    width: 8vw;
+    height: 8vw;
+    top: 25.7vw;
+    left: 75.1vw;
+    background-repeat: no-repeat;
+}
+
+/*ANIMATIONS*/
+
+.falling {
+    animation-name: falling;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes falling {
+    0% {
+        top: -20vw;
+    }
+    100% {
+        top: 25vw;
+    }
+}
+
+.zoom {
+    animation-name: zoom;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: cubic-bezier(.67,.47,.33,1.46);
+    animation-fill-mode: forwards;
+} 
+
+@keyframes zoom {
+    0% {
+        transform: scale(1);
+    }
+    20% {
+        transform: scale(2);
+    }
+    60% 
+        opacity: 1;
+    }
+    100% {
+        transform: scale(2) rotate(180deg);
+        opacity: 0;
+    }
+
+.pause {
+    animation-name: pause;
+    animation-play-state: paused;
+}
+
+.speed1 {
+    animation-duration: 6.5s;
+}
+
+.speed2 {
+    animation-duration: 5s;
+}
+
+.speed3 {
+    animation-duration: 5.5s;
+}
+
+.speed4 {
+    animation-duration: 2s;
+}
+
+.speed5 {
+    animation-duration: 2.5s;
+}
+
+.delay1 {
+    animation-delay: 0.3s;
+}
+
+.delay2 {
+    animation-delay: 0.6s;
+}
+
+.position1 {
+    left: 52vw;
+}
+
+.position2 {
+    left: 46vw;
+}
+
+.position3 {
+    left: 34vw;
+}
+
+.position4 {
+    left: 25vw;
+}
+
+.position5 {
+    left: 18vw;
+}
+
+.position6 {
+    left: 10vw;
+}
+
+.lose_life {
+    opacity: 0;
+}
+
+.disappear {
+    animation-name: disappear;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+} 
+
+@keyframes disappear {
+    0% {
+        transform: scale(1);
+    }
+    20% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(0);
+    }
+}
+
+.hide {
+    display: none;
+}
+
+.move {
+    animation-name: move;
+    animation-duration: 1.3s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes move {
+
+    0%,
+    100% {
+        transform: scale(1, 1);
+    }
+
+    50% {
+        transform: scale(1.1, 1.1);
+    }
+}
+
+.rotation {
+    animation-name: rotation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transition-timing-function: ease-in;
+}
+
+@keyframes rotation {
+
+    from {
+        transform: rotate(0deg);
+    } to {
+        transform: rotate(360deg);
+    }
+}
+
+@media only screen 
+and (max-width: 768px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    width: calc(100% - 30px);
+}
+
+@media only screen 
+and (min-width: 769px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    width: 60vw;
+}

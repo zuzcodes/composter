@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMPOSTER</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+    
+<body>
+    <div id="screen">
+        <div id="game">
+            <div id="game_background"></div>
+            <div id="game_elements">
+                <div id="bottle_container">
+                    <div class="sprite"></div>
+                </div>
+                <div id="coffeecup_container">
+                    <div class="sprite"></div>
+                </div>
+                <div id="can_container">
+                    <div class="sprite"></div>
+                </div>
+                <div id="peaches_container">
+                    <div class="sprite"></div>
+                </div>
+                <div id="tulip_container">
+                    <div class="sprite"></div>
+                </div>
+                <div id="fishbone_container">
+                    <div class="sprite"></div>
+                </div>
+            </div>
+            <div id="game_ui">
+                <audio id="backgroundsound" src="audio/background.wav" loop></audio>
+                <audio id="point" src="audio/pop.wav"></audio>
+                <audio id="click" src="audio/click.wav"></audio>
+                <audio id="losing" src="audio/losing.wav"></audio>
+                <audio id="winning" src="audio/winning.wav"></audio>
+                <div id="board">
+                    <span id="score_count">0</span>
+                </div>
+                <div id="time_count"></div>
+                <div id="life_count">
+                    <div id="life_1"></div>
+                    <div id="life_2"></div>
+                    <div id="life_3"></div>
+                </div>
+                <div id="music"></div>
+                <div id="sound"></div>
+                <div id="mutemusic"></div>
+                <div id="mutesound"></div>
+            </div>
+        </div>
+        <div id="start">
+            <div id="play"></div>
+        </div>
+        <div id="timesup">
+            <div id="startagain"></div>
+            <div id="windmill_1"></div>
+            <div id="windmill_2"></div>
+            <div id="windmill_3"></div>
+            <div id="windmill_4"></div>
+        </div>
+        <div id="gameover">
+            <div id="tryagain"></div>
+        </div>
+        <div id="levelcomplete">
+            <div id="playagain"></div>
+            <div id="sun"></div>
+            <div id="windmill_5"></div>
+            <div id="windmill_6"></div>
+            <div id="windmill_7"></div>
+            <div id="windmill_8"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+    
+</html>

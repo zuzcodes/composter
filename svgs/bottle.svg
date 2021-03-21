@@ -1,0 +1,26 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="91.28" height="237.66" viewBox="0 0 91.28 237.66">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #2f352f;
+      }
+
+      .cls-2 {
+        fill: #f26868;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>bottle</title>
+  <g>
+    <path class="cls-1" d="M79.49,115.93C78.42,99.47,68.54,85.85,55.26,81.31V33.66c0-5.71-4.33-10.38-9.62-10.38S36,28,36,33.66V81.24c-14,4.67-24.25,19.37-24.54,36.89,0,.12,0,.23,0,.35V221.12c0,5.51,4.18,10,9.29,10H70.53c5.1,0,9.28-4.51,9.28-10V118.48A10.73,10.73,0,0,0,79.49,115.93Z"/>
+    <rect class="cls-2" x="36.03" y="6.52" width="19.23" height="37.9" rx="1.86"/>
+    <rect class="cls-2" x="8.66" y="142.9" width="73.74" height="45.96" rx="7.52" transform="translate(211.42 120.35) rotate(90)"/>
+    <rect class="cls-3" x="29.03" y="145.56" width="19.23" height="6.26" rx="3.01"/>
+    <rect class="cls-3" x="28.92" y="159.69" width="33.22" height="6.26" rx="3.01"/>
+    <rect class="cls-3" x="28.92" y="173.82" width="33.22" height="6.26" rx="3.01"/>
+  </g>
+</svg>

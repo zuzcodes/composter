@@ -1,0 +1,27 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="371.07" height="371.07" viewBox="0 0 371.07 371.07">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: #edcb5d;
+      }
+
+      .cls-1 {
+        opacity: 0.35;
+      }
+
+      .cls-2 {
+        opacity: 0.5;
+      }
+
+      .cls-3 {
+        opacity: 0.65;
+      }
+    </style>
+  </defs>
+  <title>sun</title>
+  <g>
+    <circle class="cls-1" cx="185.54" cy="185.54" r="185.54"/>
+    <circle class="cls-2" cx="185.54" cy="185.54" r="164.75"/>
+    <circle class="cls-3" cx="185.54" cy="185.54" r="138.08"/>
+  </g>
+</svg>

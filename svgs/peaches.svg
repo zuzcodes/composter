@@ -1,0 +1,42 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="103.18" height="139.05" viewBox="0 0 103.18 139.05">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #a08970;
+      }
+
+      .cls-2 {
+        fill: #f9bc8f;
+      }
+
+      .cls-3 {
+        fill: #ceb8aa;
+      }
+
+      .cls-4 {
+        fill: #a88b78;
+      }
+    </style>
+  </defs>
+  <title>peaches</title>
+  <path class="cls-1" d="M20.88,21.81s1-6.07,2.92-7.55l.26,1.53s-2.78,3.68-2.48,6.07Z"/>
+  <path class="cls-1" d="M69.5,16.65s1.44-7.94,4.11-9.87l.37,2s-3.92,4.81-3.49,7.94Z"/>
+  <g>
+    <path class="cls-1" d="M32.4,71.36s1.75-9.67,5-12l.45,2.44s-4.77,5.86-4.25,9.67Z"/>
+    <path class="cls-2" d="M36.63,126.81c-14.61.38-26.8-12.14-27.22-28s11.1-29,25.72-29.35"/>
+    <ellipse class="cls-3" cx="37.85" cy="98.16" rx="22.07" ry="28.87"/>
+    <circle class="cls-4" cx="45.8" cy="80.53" r="2.26"/>
+    <circle class="cls-4" cx="41.29" cy="90.32" r="2.26"/>
+    <circle class="cls-4" cx="50.31" cy="87.51" r="2.26"/>
+    <path class="cls-2" d="M25.16,53.66c-8.53.24-15.65-7.61-15.89-17.54s6.48-18.17,15-18.41"/>
+    <ellipse class="cls-3" cx="25.87" cy="35.69" rx="12.88" ry="18.11"/>
+    <ellipse class="cls-4" cx="30.52" cy="24.63" rx="1.32" ry="1.41"/>
+    <ellipse class="cls-4" cx="27.88" cy="30.77" rx="1.32" ry="1.41"/>
+    <ellipse class="cls-4" cx="33.15" cy="29.01" rx="1.32" ry="1.41"/>
+    <path class="cls-2" d="M74.79,59.25c-12,.32-22-10-22.35-23s9.11-23.79,21.11-24.11"/>
+    <ellipse class="cls-3" cx="75.79" cy="35.73" rx="18.12" ry="23.71"/>
+    <circle class="cls-4" cx="82.32" cy="21.26" r="1.85"/>
+    <circle class="cls-4" cx="78.62" cy="29.29" r="1.85"/>
+    <circle class="cls-4" cx="86.03" cy="26.98" r="1.85"/>
+  </g>
+</svg>

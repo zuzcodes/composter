@@ -1,0 +1,19 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="162.66" height="162.66" viewBox="0 0 162.66 162.66">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f2f2f2;
+        opacity: 0.01;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>mute</title>
+  <g>
+    <circle class="cls-1" cx="81.33" cy="81.33" r="81.33"/>
+    <rect class="cls-2" x="-0.98" y="76.12" width="164.63" height="10.42" rx="5.21" transform="translate(196.17 87.89) rotate(138.27)"/>
+  </g>
+</svg>

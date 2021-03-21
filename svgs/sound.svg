@@ -1,0 +1,17 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="162.66" height="162.66" viewBox="0 0 162.66 162.66">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #616e7d;
+        opacity: 0.5;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>sound</title>
+  <circle class="cls-1" cx="81.33" cy="81.33" r="81.33"/>
+  <path class="cls-2" d="M120.33,71.81h-2.72V45.05a4.85,4.85,0,0,0-7.28-4.21l-32,18.49H52.79a7.74,7.74,0,0,0-7.74,7.74V95.36a8,8,0,0,0,8,8H78.31l32,18.48a4.85,4.85,0,0,0,7.28-4.2V90.85h2.72a9,9,0,0,0,9-8.95V80.77A9,9,0,0,0,120.33,71.81Z"/>
+</svg>

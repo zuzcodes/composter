@@ -1,0 +1,26 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="97.48" height="165.6" viewBox="0 0 97.48 165.6">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #c9c9c9;
+      }
+
+      .cls-2 {
+        fill: #f26868;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>can</title>
+  <g>
+    <path class="cls-1" d="M34.05,23.47c-.84-.58-1.29-1.39-1-1.79L42,8.8c.28-.4,1.2-.25,2,.33s1.29,1.39,1,1.79l-9,12.88C35.79,24.2,34.88,24.05,34.05,23.47Z"/>
+    <rect class="cls-2" x="8.06" y="28.98" width="81.37" height="120.43" rx="11.2"/>
+    <rect class="cls-1" x="13.4" y="20.83" width="70.68" height="8.14" rx="4.07"/>
+    <rect class="cls-1" x="13.4" y="148.88" width="70.68" height="8.14" rx="4.07"/>
+    <rect class="cls-3" x="23.26" y="47.71" width="9.69" height="23.89" rx="4.85"/>
+    <rect class="cls-3" x="23.26" y="77.25" width="9.69" height="50.45" rx="4.85"/>
+  </g>
+</svg>
